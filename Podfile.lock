@@ -1,0 +1,32 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Masonry (1.0.2)
+  - ReactiveObjC (2.0.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Masonry
+  - ReactiveObjC
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  ReactiveObjC: d92f5be3f4336aaba9e839286b879f541ffd1cd6
+
+PODFILE CHECKSUM: 20629bf510c8d45a7a7f888a2eb590733a14b00c
+
+COCOAPODS: 1.1.1
