@@ -28,14 +28,14 @@ static NSString *const kSubscribeURL = @"http://reactivetest.apiary.io/subscribe
 
 - (void)mapSubscribeCommandStateToStatusMessage
 {
-//    RACSignal *completedMessageSource = [self.subscribeCommand.executionSignals flattenMap:^RACStream *(RACSignal *subscribeSignal) {
-//        return [[[subscribeSignal materialize] filter:^BOOL (RACEvent *event) {
-//            return event.eventType == RACEventTypeCompleted;
-//        }] map:^id (id value) {
-//            NSLog(@"value : %@ %@",value,[value class]);
-//            return NSLocalizedString(@"Thanks", nil);
-//        }];
-//    }];
+    RACSignal *completedMessageSource = [self.subscribeCommand.executionSignals flattenMap:^RACStream *(RACSignal *subscribeSignal) {
+        return [[[subscribeSignal materialize] filter:^BOOL (RACEvent *event) {
+            return event.eventType == RACEventTypeCompleted;
+        }] map:^id (id value) {
+            NSLog(@"value : %@ %@",value,[value class]);
+            return NSLocalizedString(@"Thanks", nil);
+        }];
+    }];
     
     
 	RACSignal *startedMessageSource = [self.subscribeCommand.executionSignals map:^id (RACSignal *subscribeSignal) {
@@ -48,7 +48,7 @@ static NSString *const kSubscribeURL = @"http://reactivetest.apiary.io/subscribe
 	}];
     
   
-//	RAC(self, statusMessage) = [RACSignal merge:@[failedMessageSource, completedMessageSource,startedMessageSource]];
+	RAC(self, statusMessage) = [RACSignal merge:@[failedMessageSource, completedMessageSource,startedMessageSource]];
 }
 
 - (RACCommand *)subscribeCommand

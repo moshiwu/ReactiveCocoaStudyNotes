@@ -93,12 +93,8 @@
 				3D2A08CC1DD56B73006E2FC8 /* AppDelegate.h */,
 				3D2A08CD1DD56B73006E2FC8 /* AppDelegate.m */,
 				3D41D73D1DEBC7F30059A229 /* RAC学习笔记 */,
-				3DBBFEC01DE43B3100824B4B /* NSString+EmailAdditions.h */,
-				3DBBFEC11DE43B3100824B4B /* NSString+EmailAdditions.m */,
-				3DBBFEC21DE43B3100824B4B /* SubscribeViewController.h */,
-				3DBBFEC31DE43B3100824B4B /* SubscribeViewController.m */,
-				3DBBFEC41DE43B3100824B4B /* SubscribeViewModel.h */,
-				3DBBFEC51DE43B3100824B4B /* SubscribeViewModel.m */,
+				3D41D74C1DEC0C670059A229 /* RAC与MVVM */,
+				3D41D74D1DEC0C7A0059A229 /* other */,
 				3D2A08D21DD56B73006E2FC8 /* Main.storyboard */,
 				3D2A08D51DD56B73006E2FC8 /* Assets.xcassets */,
 				3D2A08D71DD56B73006E2FC8 /* LaunchScreen.storyboard */,
@@ -174,6 +170,26 @@
 				3D41D74A1DEBE0EA0059A229 /* RACPlayGroundViewController+Example.m */,
 			);
 			name = "RAC二十例";
+			sourceTree = "<group>";
+		};
+		3D41D74C1DEC0C670059A229 /* RAC与MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				3DBBFEC21DE43B3100824B4B /* SubscribeViewController.h */,
+				3DBBFEC31DE43B3100824B4B /* SubscribeViewController.m */,
+				3DBBFEC41DE43B3100824B4B /* SubscribeViewModel.h */,
+				3DBBFEC51DE43B3100824B4B /* SubscribeViewModel.m */,
+			);
+			name = "RAC与MVVM";
+			sourceTree = "<group>";
+		};
+		3D41D74D1DEC0C7A0059A229 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				3DBBFEC01DE43B3100824B4B /* NSString+EmailAdditions.h */,
+				3DBBFEC11DE43B3100824B4B /* NSString+EmailAdditions.m */,
+			);
+			name = other;
 			sourceTree = "<group>";
 		};
 		50DBE7F1DD7CC168C6800308 /* Pods */ = {
