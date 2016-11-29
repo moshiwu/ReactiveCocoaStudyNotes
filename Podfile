@@ -10,4 +10,7 @@ target 'LearnReactiveCocoa-OC' do
    pod 'ReactiveObjC', '~> 2.0.0'
    pod 'Masonry'
    pod 'AFNetworking'
+   pod 'YYKit'
+   pod 'IQKeyboardManager'
+   pod 'SDWebImage'
 end

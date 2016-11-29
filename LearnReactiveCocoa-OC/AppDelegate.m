@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "SubscribeViewController.h"
+#import "MusicSearchViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -19,14 +21,21 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+    //MVVM 例子一
 //    SubscribeViewController *subscribeViewController = [SubscribeViewController new];
 //    UINavigationController *mainNavigationController = [[UINavigationController alloc] initWithRootViewController:subscribeViewController];
 //    self.window.rootViewController = mainNavigationController;
-//    
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    [self.window makeKeyAndVisible];
+    
+    //MVVM 例子二
+    MusicSearchViewController *musicSearch = [MusicSearchViewController new];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:musicSearch];
+    self.window.rootViewController = nav;
+    
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     
     return YES;
 }

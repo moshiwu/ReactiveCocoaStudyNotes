@@ -18,6 +18,15 @@
 		3D41D7431DEBD2840059A229 /* RACPlayGroundViewController+RAC_Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41D7421DEBD2840059A229 /* RACPlayGroundViewController+RAC_Base.m */; };
 		3D41D7471DEBD4780059A229 /* RACPlayGroundViewController+RACCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41D7461DEBD4780059A229 /* RACPlayGroundViewController+RACCommand.m */; };
 		3D41D74B1DEBE0EA0059A229 /* RACPlayGroundViewController+Example.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41D74A1DEBE0EA0059A229 /* RACPlayGroundViewController+Example.m */; };
+		3D41D7511DEC19E40059A229 /* MusicSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41D7501DEC19E40059A229 /* MusicSearchViewController.m */; };
+		3D41D7551DEC243E0059A229 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41D7541DEC243E0059A229 /* NetworkManager.m */; };
+		3D41D75B1DEC24E40059A229 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41D75A1DEC24E40059A229 /* BaseRequest.m */; };
+		3D41D75E1DEC24EF0059A229 /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41D75D1DEC24EF0059A229 /* BaseResponse.m */; };
+		3D41D7611DEC26B40059A229 /* DouBanSearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41D7601DEC26B40059A229 /* DouBanSearchRequest.m */; };
+		3D41D7641DEC281F0059A229 /* DouBanSearchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41D7631DEC281F0059A229 /* DouBanSearchResponse.m */; };
+		3D41D7691DED1A300059A229 /* NSArray+MyLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41D7661DED1A300059A229 /* NSArray+MyLog.m */; };
+		3D41D76A1DED1A300059A229 /* NSDictionary+MyLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41D7681DED1A300059A229 /* NSDictionary+MyLog.m */; };
+		3D41D76D1DED27660059A229 /* MusicSearchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41D76C1DED27660059A229 /* MusicSearchViewModel.m */; };
 		3D57270D1DDDA28D00C1AEF5 /* RACPlayGroundViewController+RAC_Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D57270C1DDDA28D00C1AEF5 /* RACPlayGroundViewController+RAC_Group.m */; };
 		3DBBFEC61DE43B3100824B4B /* NSString+EmailAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBBFEC11DE43B3100824B4B /* NSString+EmailAdditions.m */; };
 		3DBBFEC71DE43B3100824B4B /* SubscribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBBFEC31DE43B3100824B4B /* SubscribeViewController.m */; };
@@ -44,6 +53,24 @@
 		3D41D7461DEBD4780059A229 /* RACPlayGroundViewController+RACCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RACPlayGroundViewController+RACCommand.m"; sourceTree = "<group>"; };
 		3D41D7491DEBE0EA0059A229 /* RACPlayGroundViewController+Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACPlayGroundViewController+Example.h"; sourceTree = "<group>"; };
 		3D41D74A1DEBE0EA0059A229 /* RACPlayGroundViewController+Example.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RACPlayGroundViewController+Example.m"; sourceTree = "<group>"; };
+		3D41D74F1DEC19E40059A229 /* MusicSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicSearchViewController.h; sourceTree = "<group>"; };
+		3D41D7501DEC19E40059A229 /* MusicSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicSearchViewController.m; sourceTree = "<group>"; };
+		3D41D7531DEC243E0059A229 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		3D41D7541DEC243E0059A229 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		3D41D7591DEC24E40059A229 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		3D41D75A1DEC24E40059A229 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		3D41D75C1DEC24EF0059A229 /* BaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
+		3D41D75D1DEC24EF0059A229 /* BaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
+		3D41D75F1DEC26B40059A229 /* DouBanSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouBanSearchRequest.h; sourceTree = "<group>"; };
+		3D41D7601DEC26B40059A229 /* DouBanSearchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouBanSearchRequest.m; sourceTree = "<group>"; };
+		3D41D7621DEC281F0059A229 /* DouBanSearchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouBanSearchResponse.h; sourceTree = "<group>"; };
+		3D41D7631DEC281F0059A229 /* DouBanSearchResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouBanSearchResponse.m; sourceTree = "<group>"; };
+		3D41D7651DED1A300059A229 /* NSArray+MyLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MyLog.h"; sourceTree = "<group>"; };
+		3D41D7661DED1A300059A229 /* NSArray+MyLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MyLog.m"; sourceTree = "<group>"; };
+		3D41D7671DED1A300059A229 /* NSDictionary+MyLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MyLog.h"; sourceTree = "<group>"; };
+		3D41D7681DED1A300059A229 /* NSDictionary+MyLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MyLog.m"; sourceTree = "<group>"; };
+		3D41D76B1DED27660059A229 /* MusicSearchViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicSearchViewModel.h; sourceTree = "<group>"; };
+		3D41D76C1DED27660059A229 /* MusicSearchViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicSearchViewModel.m; sourceTree = "<group>"; };
 		3D57270B1DDDA28D00C1AEF5 /* RACPlayGroundViewController+RAC_Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACPlayGroundViewController+RAC_Group.h"; sourceTree = "<group>"; };
 		3D57270C1DDDA28D00C1AEF5 /* RACPlayGroundViewController+RAC_Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RACPlayGroundViewController+RAC_Group.m"; sourceTree = "<group>"; };
 		3DBBFEC01DE43B3100824B4B /* NSString+EmailAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EmailAdditions.h"; sourceTree = "<group>"; };
@@ -94,6 +121,7 @@
 				3D2A08CD1DD56B73006E2FC8 /* AppDelegate.m */,
 				3D41D73D1DEBC7F30059A229 /* RAC学习笔记 */,
 				3D41D74C1DEC0C670059A229 /* RAC与MVVM */,
+				3D41D7521DEC1DE60059A229 /* RAC和AFNetworking */,
 				3D41D74D1DEC0C7A0059A229 /* other */,
 				3D2A08D21DD56B73006E2FC8 /* Main.storyboard */,
 				3D2A08D51DD56B73006E2FC8 /* Assets.xcassets */,
@@ -175,6 +203,7 @@
 		3D41D74C1DEC0C670059A229 /* RAC与MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				3D41D74E1DEC19B80059A229 /* 豆瓣音乐 */,
 				3DBBFEC21DE43B3100824B4B /* SubscribeViewController.h */,
 				3DBBFEC31DE43B3100824B4B /* SubscribeViewController.m */,
 				3DBBFEC41DE43B3100824B4B /* SubscribeViewModel.h */,
@@ -186,10 +215,58 @@
 		3D41D74D1DEC0C7A0059A229 /* other */ = {
 			isa = PBXGroup;
 			children = (
+				3D41D7651DED1A300059A229 /* NSArray+MyLog.h */,
+				3D41D7661DED1A300059A229 /* NSArray+MyLog.m */,
+				3D41D7671DED1A300059A229 /* NSDictionary+MyLog.h */,
+				3D41D7681DED1A300059A229 /* NSDictionary+MyLog.m */,
 				3DBBFEC01DE43B3100824B4B /* NSString+EmailAdditions.h */,
 				3DBBFEC11DE43B3100824B4B /* NSString+EmailAdditions.m */,
 			);
 			name = other;
+			sourceTree = "<group>";
+		};
+		3D41D74E1DEC19B80059A229 /* 豆瓣音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				3D41D74F1DEC19E40059A229 /* MusicSearchViewController.h */,
+				3D41D7501DEC19E40059A229 /* MusicSearchViewController.m */,
+				3D41D76B1DED27660059A229 /* MusicSearchViewModel.h */,
+				3D41D76C1DED27660059A229 /* MusicSearchViewModel.m */,
+			);
+			name = "豆瓣音乐";
+			sourceTree = "<group>";
+		};
+		3D41D7521DEC1DE60059A229 /* RAC和AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				3D41D7531DEC243E0059A229 /* NetworkManager.h */,
+				3D41D7541DEC243E0059A229 /* NetworkManager.m */,
+				3D41D7561DEC24B60059A229 /* Request */,
+				3D41D7571DEC24BE0059A229 /* Response */,
+			);
+			name = "RAC和AFNetworking";
+			sourceTree = "<group>";
+		};
+		3D41D7561DEC24B60059A229 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				3D41D7591DEC24E40059A229 /* BaseRequest.h */,
+				3D41D75A1DEC24E40059A229 /* BaseRequest.m */,
+				3D41D75F1DEC26B40059A229 /* DouBanSearchRequest.h */,
+				3D41D7601DEC26B40059A229 /* DouBanSearchRequest.m */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		3D41D7571DEC24BE0059A229 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				3D41D75C1DEC24EF0059A229 /* BaseResponse.h */,
+				3D41D75D1DEC24EF0059A229 /* BaseResponse.m */,
+				3D41D7621DEC281F0059A229 /* DouBanSearchResponse.h */,
+				3D41D7631DEC281F0059A229 /* DouBanSearchResponse.m */,
+			);
+			name = Response;
 			sourceTree = "<group>";
 		};
 		50DBE7F1DD7CC168C6800308 /* Pods */ = {
@@ -332,13 +409,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D41D76D1DED27660059A229 /* MusicSearchViewModel.m in Sources */,
 				3D01D5971DE2A60400E5399B /* RACPlayGroundViewController+RAC_Operation.m in Sources */,
+				3D41D7691DED1A300059A229 /* NSArray+MyLog.m in Sources */,
 				3D41D7471DEBD4780059A229 /* RACPlayGroundViewController+RACCommand.m in Sources */,
+				3D41D7551DEC243E0059A229 /* NetworkManager.m in Sources */,
 				3D41D7431DEBD2840059A229 /* RACPlayGroundViewController+RAC_Base.m in Sources */,
+				3D41D75B1DEC24E40059A229 /* BaseRequest.m in Sources */,
 				3D2A08D11DD56B73006E2FC8 /* RACPlayGroundViewController.m in Sources */,
+				3D41D7641DEC281F0059A229 /* DouBanSearchResponse.m in Sources */,
+				3D41D7511DEC19E40059A229 /* MusicSearchViewController.m in Sources */,
 				3D57270D1DDDA28D00C1AEF5 /* RACPlayGroundViewController+RAC_Group.m in Sources */,
+				3D41D76A1DED1A300059A229 /* NSDictionary+MyLog.m in Sources */,
+				3D41D7611DEC26B40059A229 /* DouBanSearchRequest.m in Sources */,
 				3D41D74B1DEBE0EA0059A229 /* RACPlayGroundViewController+Example.m in Sources */,
 				3DBBFEC61DE43B3100824B4B /* NSString+EmailAdditions.m in Sources */,
+				3D41D75E1DEC24EF0059A229 /* BaseResponse.m in Sources */,
 				3DBBFEC81DE43B3100824B4B /* SubscribeViewModel.m in Sources */,
 				3DBBFEC71DE43B3100824B4B /* SubscribeViewController.m in Sources */,
 				3D2A08CE1DD56B73006E2FC8 /* AppDelegate.m in Sources */,

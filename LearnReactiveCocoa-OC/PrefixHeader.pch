@@ -14,11 +14,46 @@
 #import <Foundation/Foundation.h>
 
 //#import "EXTScope.h"
-//#import "Masonry.h"
+#import "Masonry.h"
+#import "YYKit.h"
 
 #import "ReactiveObjC.h"
 #import "RACReturnSignal.h"
 #import "RACSubscriber.h"
+#import "AFNetworking.h"
+#import "NetworkManager.h"
+#import "NSArray+MyLog.h"
+#import "NSDictionary+MyLog.h"
+
+
+#define SCREEN_WIDTH	 [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT	 [[UIScreen mainScreen] bounds].size.height
+
+
+#define MyWeakSelf __weak __typeof(self) ws = self;
+
+
+//日志宏
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"[%s] %s line:%d content:%s\n",__TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#define DNSLogMethod	NSLog((@"%s"), __PRETTY_FUNCTION__);
+#define DNSLogPoint(p)	NSLog(@"%f,%f", p.x, p.y);
+#define DNSLogSize(p)	NSLog(@"%f,%f", p.width, p.height);
+#define DNSLogRect(p)	NSLog(@"%f,%f %f,%f", p.origin.x, p.origin.y, p.size.width, p.size.height);
+#define NSLogMESC {NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];[dateFormatter setDateStyle:NSDateFormatterMediumStyle];[dateFormatter setTimeStyle:NSDateFormatterShortStyle];[dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss.SSS"];NSLog(@"Date %@", [dateFormatter stringFromDate:[NSDate date]]);}
+#define NSLogMessageMESC(MSG) {NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];[dateFormatter setDateStyle:NSDateFormatterMediumStyle];[dateFormatter setTimeStyle:NSDateFormatterShortStyle];[dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss.SSS"];NSLog(@"%@ Date %@", MSG , [dateFormatter stringFromDate:[NSDate date]]);}
+#define NSLogThread     NSLog(@"Current Thread is:%@",[NSThread currentThread]);
+
+#else
+#define NSLog(FORMAT, ...) nil;
+#define DNSLogMethod
+#define DNSLogPoint(p)
+#define DNSLogSize(p)
+#define DNSLogRect(p)
+#define NSLogMESC
+#define NSLogMessageMESC(MSG)
+#define NSLogThread
+#endif
 
 
 #endif /* PrefixHeader_pch */
